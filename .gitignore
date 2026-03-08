@@ -8,10 +8,7 @@ dist-ssr
 build
 *.local
 
-# Файлы с данными (ТВОИ ПРИВАТНЫЕ ДАННЫЕ)
-src/data/projects.js
-src/data/*.js
-!src/data/example.js  # если хочешь оставить пример
+
 
 # Переменные окружения
 .env
@@ -36,4 +33,3 @@ lerna-debug.log*
 .DS_Store
 Thumbs.db
 
-public/img/
