@@ -54,7 +54,7 @@ function ProjectPage() {
           )}
         <MotionSection motionClass='motion-preset-slide-up'>
         <div className="bg-[#1e293b] p-8 rounded-lg border border-[#334155]">
-          <h1 className="text-[#f1f5f9] font-mono text-3xl mb-4">
+          <h1 className="text-[#f1f5f9] font-mono sm:text-2xl md:text-3xl mb-4">
             {project.title}
           </h1>
           

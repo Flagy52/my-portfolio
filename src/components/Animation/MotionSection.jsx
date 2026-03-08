@@ -1,6 +1,6 @@
 import { useInView } from 'react-intersection-observer';
 
-export default function MotionSection({ children, motionClass = 'motion-preset-slide-left', threshold = 0.2 }) {
+export default function MotionSection({ children, motionClass = 'motion-preset-slide-left', threshold = 0.1 }) {
   const [ref, inView] = useInView({
     triggerOnce: false,
     threshold: threshold,
