@@ -26,7 +26,7 @@ function App() {
   return (
     
     <NeuralNetworkBG >
-      <ScrollToTop />
+    <ScrollToTop />
     <div className="min-h-screen ">
       <Header />
         <main className="relative z-10">
