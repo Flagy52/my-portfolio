@@ -1,3 +1,4 @@
+import { VERSION } from "../config/version";
 function Footer() {
   const currentYear = new Date().getFullYear();
   
@@ -15,7 +16,7 @@ function Footer() {
           </div>
           
           <div>
-            <span className="text-[#6366f1]">❯</span> v1.0.0
+            <span className="text-[#6366f1]">❯</span> {VERSION}
           </div>
         </div>
       </div>

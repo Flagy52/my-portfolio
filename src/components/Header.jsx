@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
-import { FaGithub, FaTelegram, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaTelegram, FaEnvelope, FaFigma } from 'react-icons/fa';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,8 @@ function Header() {
   const socialLinks = [
     { icon: <FaTelegram />, href: 'https://t.me/flag_y', label: 'Telegram' },
     { icon: <FaGithub />, href: 'https://github.com/Flagy52', label: 'GitHub' },
-    { icon: <FaEnvelope />, href: 'mailto:den.sharov.20@bk.ru', label: 'LinkedIn' },
+    { icon: <FaEnvelope />, href: 'mailto:den.sharov.20@bk.ru', label: 'Mail' },
+    { icon: <FaFigma />, href: 'https://www.figma.com/design/rra1YB61fnyzdfHSoQq29V/portfolio?t=nPKozjZcIdhh5x2E-1', label: 'Figma' },
   ];
 
   return (
@@ -78,7 +79,7 @@ function Header() {
               ))}
             </div>
 
-            <div className="flex space-x-4 pt-4 border-t border-[#1e293b]">
+            <div className="flex space-x-4 pt-4 border-t border-[#1e293b] justify-center">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
