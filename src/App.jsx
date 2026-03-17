@@ -24,7 +24,7 @@ function ScrollToTop() {
 function App() {
   return (
     
-    <NeuralNetworkBG >
+    <div >
     <ScrollToTop />
     <div className="min-h-screen ">
       <Header />
@@ -44,7 +44,7 @@ function App() {
         </main>
       <Footer />
     </div>
-    </NeuralNetworkBG >
+    </div >
   );
 }
 
